@@ -1,0 +1,100 @@
+name: shcraft
+version: '${version}'
+main: me.ugur.shcraft.Main
+api-version: 1.16
+authors: [ Ugur ]
+description: Das Offizielle SHCraft Plugin
+commands:
+  gamemode:
+    permission: shcraft.command.gamemode
+  lobby:
+    permission: shcraft.command.lobby
+  citybuild:
+    permission: shcraft.command.citybuild
+  vanish:
+    permission: shcraft.command.vanish
+  gm:
+    permission: shcraft.command.gm
+  l:
+    permission: shcraft.command.l
+  cb:
+    permission: shcraft.command.cb
+  v:
+    permission: shcraft.command.v
+  day:
+    permission: shcraft.command.day
+  tag:
+    permission: shcraft.command.tag
+  night:
+    permission: shcraft.command.night
+  nacht:
+    permission: shcraft.command.nacht
+  navigator:
+    permission: shcraft.command.navigator
+  nav:
+    permission: shcraft.command.nav
+  heal:
+    permission: shcraft.command.heal
+  repair:
+    permission: shcraft.command.repair
+  test:
+    permission: shcraft.command.test
+  message:
+    permission: shcraft.command.message
+  chatmute:
+    permission: shcraft.command.chatmute
+  cm:
+    permission: shcraft.command.cm
+  kickall:
+    permission: shcraft.command.kickall
+  shcrafthelp:
+    permission: shcraft.command.shcrafthelp
+  shchelp:
+    permission: shcraft.command.shchelp
+permissions:
+  shcraft.command.gamemode:
+    default: op
+  shcraft.command.lobby:
+    default: op
+  shcraft.command.citybuild:
+    default: op
+  shcraft.command.vanish:
+    default: op
+  shcraft.command.gm:
+    default: op
+  shcraft.command.l:
+    default: op
+  shcraft.command.cb:
+    default: op
+  shcraft.command.v:
+    default: op
+  shcraft.command.day:
+    default: op
+  shcraft.command.tag:
+    default: op
+  shcraft.command.night:
+    default: op
+  shcraft.command.nacht:
+    default: op
+  shcraft.command.navigator:
+    default: true
+  shcraft.command.nav:
+    default: true
+  shcraft.command.heal:
+    default: op
+  shcraft.command.repair:
+    default: op
+  shcraft.command.test:
+    default: true
+  shcraft.command.message:
+    default: op
+  shcraft.command.chatmute:
+    default: op
+  shcraft.command.cm:
+    default: op
+  shcraft.command.kickall:
+    default: op
+  shcraft.command.shcrafthelp:
+    default: true
+  shcraft.command.shchelp:
+    default: true
